@@ -1,0 +1,16 @@
+@import './_settings/base';
+@import './_settings/variables';
+@import './_settings/animations';
+
+.jp-app-cont {
+    max-width: 140rem;
+    height: 100%;
+
+    .jp-profiles-cont {
+        margin-top: 1rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+    }
+}

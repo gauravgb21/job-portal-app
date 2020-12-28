@@ -1,0 +1,61 @@
+.jp-profile-details { 
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .profile-img-cont {
+        width: 30rem;
+        height: 25rem;
+    }
+
+    .profile-name-cont {
+        width: 30rem;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding: 2rem;
+    }
+
+    .profile-btn-cont {
+        width: 30rem;
+        display: flex;
+
+        a {
+            flex: 1 1 50%;
+        }
+
+        .reject-btn , .shortlist-btn {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 1rem;
+            color: #fff;
+            cursor: pointer;
+            border-radius: .3rem;
+            transition: all .3s;
+        }
+
+        .reject-btn {
+            background-color: red;
+
+            &:hover {
+                background-color: rgba(255,0,0,.8);
+            }
+        }
+
+
+
+        .shortlist-btn {
+            margin-left: 1rem;
+            background-color: green;
+
+            &:hover {
+                background-color: rgba(0,128,0,.9);
+            }
+        }
+    }
+
+
+}
